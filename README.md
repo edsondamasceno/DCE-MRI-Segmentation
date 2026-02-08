@@ -10,6 +10,12 @@ Essa estratégia reduz significativamente o uso de memória e preserva informaç
 
 ![Arquitetura SegNet](images/SegNet.png)
 
+<p align="center">
+  <img src="images/SegNet.png" width="600"><br>
+  <em>Arquitetura SegNet utilizada na segmentação.</em>
+</p>
+
+
 
 🔹 **UNet**
 
@@ -18,3 +24,9 @@ A **UNet** é uma arquitetura amplamente utilizada em **segmentação de imagens
 Um diferencial da UNet é o uso de **skip connections**, que conectam diretamente camadas correspondentes do encoder ao decoder, permitindo a fusão de informações espaciais detalhadas com características semânticas profundas. Essa estratégia melhora a precisão da segmentação, especialmente em regiões com bordas complexas e contraste variável. No projeto, a UNet foi utilizada para segmentação de tumores em **DCE-MRI**, alcançando métricas elevadas e resultados consistentes.
 
 ![Arquitetura UNet](images/UNet.png)
+
+<p align="center">
+  <img src="images/UNet.png" width="600"><br>
+  <em>Arquitetura UNet utilizada na segmentação.</em>
+</p>
+
