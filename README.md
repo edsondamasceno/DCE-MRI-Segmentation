@@ -1,2 +1,3 @@
-# DCE-MRI-Segmentation
-Este Projeto tem como objetivo o uso de abordagens de aprendizado profundo (Deep Learning) para segmentação do tumor em imagens DCE-MRI da mama.
+#  🔍 Segmentação de Tumores em Imagens Médicas com Deep Learning
+
+A segmentação do tumor é realizada por meio de Redes Neurais Convolucionais, utilizando as arquiteturas SegNet e UNet
