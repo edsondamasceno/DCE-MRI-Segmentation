@@ -47,3 +47,14 @@ A figura a seguir apresenta exemplos de segmentação do tumor em imagens **DCE-
 
 Os resultados evidenciam o impacto das diferentes proporções de dados de treinamento na qualidade da segmentação, bem como as diferenças de comportamento entre as arquiteturas, especialmente na preservação da forma e na delimitação das bordas do tumor.
 
+## Análise Volumétrica e Avaliação da Segmentação
+
+A figura a seguir apresenta a comparação entre a **marcação manual do especialista** e as segmentações automáticas geradas pelas arquiteturas **SegNet** e **UNet** em diferentes casos clínicos e volumes temporais (V1 e V2). Para cada reconstrução volumétrica, são reportadas as métricas **Dice** e **IoU**, evidenciando a alta concordância entre as segmentações automáticas e a referência manual.
+
+<p align="center">
+  <img src="images/Volume.png"><br>
+  <em>Volumes da marcação do especialista e segmentados com as arquitetura SegNet e UNet.</em>
+</p>
+
+Os resultados demonstram a consistência das arquiteturas na segmentação tridimensional do tumor, bem como sua capacidade de preservar forma e volume ao longo da análise temporal.
+
