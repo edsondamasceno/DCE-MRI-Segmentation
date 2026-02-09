@@ -1,6 +1,6 @@
 #  🔍 Segmentação de Tumores em Imagens Médicas com Deep Learning
 
-Este repositório apresenta metodos computacionais automaticos para segmentação de tumores mamários em imagens de Ressonância Magnética com Contraste Dinâmico (DCE-MRI). A segmentação automática do tumor utiliza Redes Neurais Convolucionais (CNNs), especificamente as arquiteturas UNet e SegNet. 
+Este repositório contém implementações e experimentos inspirados nos métodos descritos nas publicações listadas abaixo, com foco em segmentação de tumores em imagens DCE-MRI da mama utilizando Deep Learning.
 
 🔹 **SegNet**
 
@@ -57,4 +57,22 @@ A figura a seguir apresenta a comparação entre a **marcação manual do especi
 </p>
 
 Os resultados demonstram a consistência das arquiteturas na segmentação tridimensional do tumor, bem como sua capacidade de preservar forma e volume ao longo da análise temporal.
+
+## Publicações Relacionadas
+
+Este projeto está relacionado às seguintes publicações científicas na área de segmentação e análise de tumores em imagens de DCE-MRI da mama:
+
+- **Tumor Segmentation in Breast DCE-MRI Slice Using Deep Learning Methods**  
+  *IEEE International Symposium on Computers and Communications (ISCC), 2021*  
+  DOI: https://doi.org/10.1109/ISCC53001.2021.9631444  
+  🔗 https://ieeexplore.ieee.org/document/9631444
+
+- **Deep learning-based tumor segmentation and classification in breast MRI with 3TP method**  
+  *Biomedical Signal Processing and Control, 2024*  
+  DOI: https://doi.org/10.1016/j.bspc.2024.106199
+
+- **An approach to the prediction of breast cancer response to neoadjuvant chemotherapy based on tumor habitats in DCE-MRI images**  
+  *Expert Systems with Applications, 2023*  
+  DOI: https://doi.org/10.1016/j.eswa.2023.121081
+
 
