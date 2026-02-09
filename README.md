@@ -35,3 +35,15 @@ Os experimentos foram configurados com divisões de **30/70**, **50/50** e **70/
   <img src="images/Experimentos.png"><br>
   <em>Descrição dos experimentos realizados durante a segmentação do tumor.</em>
 </p>
+
+## Resultados da Segmentação Tumoral
+
+A figura a seguir apresenta exemplos de segmentação do tumor em imagens **DCE-MRI da mama**, comparando os resultados obtidos pelas arquiteturas **SegNet** e **UNet** nos três experimentos realizados. São mostradas a imagem original, a **região de interesse (ROI)** definida pelo especialista e as máscaras segmentadas em cada cenário experimental.
+
+<p align="center">
+  <img src="images/CNN Result.png"><br>
+  <em>Exemplos finais de segmentação usando arquitetura SegNet e UNet.</em>
+</p>
+
+Os resultados evidenciam o impacto das diferentes proporções de dados de treinamento na qualidade da segmentação, bem como as diferenças de comportamento entre as arquiteturas, especialmente na preservação da forma e na delimitação das bordas do tumor.
+
