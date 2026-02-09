@@ -25,3 +25,13 @@ Um diferencial da UNet é o uso de **skip connections**, que conectam diretament
   <em>Arquitetura UNet utilizada na segmentação.</em>
 </p>
 
+## Avaliação das Arquiteturas UNet e SegNet
+
+Para avaliar a eficiência das arquiteturas **UNet** e **SegNet** na segmentação de tumores em imagens **DCE-MRI da mama**, foram realizados três experimentos com diferentes proporções de dados para **treinamento e teste**. Os cenários consideraram variações no número de pacientes e de *slices* com lesões, permitindo analisar o impacto do volume de dados no desempenho dos modelos.
+
+Os experimentos foram configurados com divisões de **30/70**, **50/50** e **70/30** (treino/teste), garantindo uma avaliação comparativa e robusta das arquiteturas em diferentes condições de aprendizado e generalização, conforme descrito na imagem a seguir.
+
+<p align="center">
+  <img src="images/Experimentos.png"><br>
+  <em>Descrição dos experimentos realizados durante a segmentação do tumor.</em>
+</p>
